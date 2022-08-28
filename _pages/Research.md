@@ -1,7 +1,8 @@
 ---
 permalink: /Research/
-title: "Research"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
+path: "_pages"
+type: pages
+layout: single
+author_profile: true
 ---
+Under preperation
