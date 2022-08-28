@@ -1,6 +1,6 @@
 ---
 permalink: /About me/
-title: "About me"
+title: " "
 path: "_pages"
 type: pages
 layout: single
