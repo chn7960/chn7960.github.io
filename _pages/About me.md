@@ -1,5 +1,6 @@
 ---
 permalink: /About me/
+title: ""
 path: "_pages"
 type: pages
 layout: single
