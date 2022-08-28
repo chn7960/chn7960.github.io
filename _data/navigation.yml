@@ -1,12 +1,12 @@
 # main links
 main:
+  - title: "Home"
+    url: /
+  - title: "About me"
+    url: /About me/
   - title: "Research"
     url: /Research/
   - title: "Achievements"
     url: /Achievements/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Lecture"
+    url: /Lecture/
