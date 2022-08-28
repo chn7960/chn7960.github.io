@@ -6,6 +6,7 @@ type: pages
 layout: single
 author_profile: true
 ---
+
 # Haneul Choi, Ph.D.
 
 ## PROPESSIONAL EMPLOYMENT
