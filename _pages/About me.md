@@ -1,14 +1,11 @@
 ---
 permalink: /About me/
-title: ""
+title: "About me"
 path: "_pages"
 type: pages
 layout: single
 author_profile: true
 ---
-
-
-ffff
 # Haneul Choi, Ph.D.
 
 ## PROPESSIONAL EMPLOYMENT
