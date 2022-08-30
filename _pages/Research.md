@@ -1,5 +1,6 @@
 ---
 permalink: /Research/
+title: "　"
 path: "_pages"
 type: pages
 layout: single
