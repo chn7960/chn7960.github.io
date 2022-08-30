@@ -31,9 +31,7 @@ author_profile: true
 ![이미지 alt](/assets/images/SDSW.png)
 {: .align-center}   
 * Purpose: ffff
-* Project: Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity, _Kolon Global_   
-* Period: 2017.12 - 2018.12   
-* Position: Graduate Research Assistant   
+* Project: Graduate Research Assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
 ### 미세먼지 저감 기술 연구
