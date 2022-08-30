@@ -5,38 +5,44 @@ type: pages
 layout: single
 author_profile: true
 ---
-Under preperation
-# Haneul Choi, Ph.D.
+### 연구재단 연구
+Purpose: ffff
+Project: Occupants-Behavior-Learning Type Smart Space for Elderlybased on Cyber Physics System   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
 
-## RESEARCH EXPERIENCE
-### Yonsei University, Seoul, Republic of Korea
-_Graduate Research Assistant_　　　　　　　　　　　　　　　　　　　　　　　2017.3 - 2022.8   
-Occupants-Behavior-Learning Type Smart Space for Elderlybased on Cyber Physics System   
+### 재실자 중심 제어
+Purpose: ffff
+Project: Developement of Building Technology to improve the Living Performance Closely Related with Lifestyle to Realize the Housing Welfare   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
 
-_Principle Investigator_　　　　　　　　　　　　　　　　　　　　　　　2017.3 - 2022.8   
-Development of Intelligent Integrated Control Algorithm for IoT Air Conditioning Appliances in Smart Home to Optimize Indoor environmental quality and Energy
-   
+### 쿠웨이트 연구
+Purpose: ffff
+Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
 
-_Graduate Research Assistant_　　　　　　　　　　　　　　　　　　　　　　　2017.3 - 2022.8   
-Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+### SDSW
+Purpose: ffff
+Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
 
-_Graduate Research Assistant_　　　　　　　　　　　　　　　　　　　　　　　2017.3 - 2022.8   
-Occupants-Behavior-Learning Type Smart Space for Elderlybased on Cyber Physics System   
+### 미세먼지 저감 기술 연구
+Purpose: ffff
+Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
 
-_Graduate Research Assistant_　　　　　　　　　　　　　　　　　　　　　　　2017.3 - 2022.8   
-Developement of Building Technology to improve the Living Performance Closely Related with Lifestyle to Realize the Housing Welfare   
-
-
-__Yonsei University__, Seoul, Republic of Korea　　　　　　　　　　　　　　2017.3 - 2022.8   
-
-_Graduate Research Assistant_
-
-## EDUCATION
-__Yonsei University__, Seoul, Republic of Korea　　　　　　　　　　　　　　2017.3 - 2022.8   
-Department of Architecutre & Architecutral Engineering   
-_Ph.D. in Architectural Engineering (Architecture Environment)_   
-Dissertation: Deep Vision-based Occupant-Centric Control for HVAC Systems
-
-__Yonsei University__, Seoul, Republic of Korea　　　　　　　　　　　　　　2010.3 - 2017.2   
-Department of Architecutre & Architecutral Engineering   
-_Bachelor of Science_
+### 생활밀착형 연구
+Purpose: ffff
+Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+Period: 2017.3 - 2022.8   
+Role: Graduate Research Assistant   
+Publications: 1, 2, 3   
