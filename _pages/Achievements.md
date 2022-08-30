@@ -45,7 +45,7 @@ author_profile: true
 1. 딥러닝 기반 재실자 맞춤형 대사량 검출 방법 및 시스템. (2021). _Patent Application_, No. 10-2021-0114528, Republic of Korea
 1. 실시간 착의량 및 무작위대입법을 이용한 공조 제어시스템 및 공조 제어방법. (2021). _Patent Application_, No. 10-2021-0118082, Republic of Korea
 1. Python GUI(파이썬 그래픽 사용자 인터페이스) 도면 적용 시 직선에 따른 점 좌표 생성 알고리즘. (2022). _Software_, No. C-2022-009959, Republic of Korea
-1. AdSim. (2020). _Software_, No. C-2020-050393, South Korea
+1. AdSim. (2020). _Software_, No. C-2020-050393, Republic of Korea
 
 ## AWARDS AND HONORS
 1. 우수논문발표상(co-author). (2022). _한국생태환경건축학회 춘계학술발표대회_
