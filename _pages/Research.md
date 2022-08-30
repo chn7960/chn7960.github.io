@@ -7,10 +7,10 @@ layout: single
 author_profile: true
 ---
 ### Vision-based Occupant Information Estimation 
+![이미지 alt](/assets/images/Vision.png)
+{: .align-center}   
 * Purpose: Developing novel technology to estimate occupant information (e.g., metabolic rate, clothing insulation) using computer vision
-* Project: Occupants-behavior-learning type smart space for elderlybased on cyber physics system, _National Research Foundation of Korea_   
-* Period: 2017.3 - 2020.2   
-* Position: Graduate Research Assistant   
+* Project: __Graduate research assistant__. (2017 - 2020). Occupants-behavior-learning type smart space for elderlybased on cyber physics system. _National Research Foundation of Korea_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132321004388){:target="_blank"}, [__2__](https://www.mdpi.com/2071-1050/11/20/5702){:target="_blank"}, [__3__](https://www.mdpi.com/2073-4433/11/1/106){:target="_blank"}, [__4__](https://link.springer.com/article/10.1007/s12273-020-0707-1){:target="_blank"}   
 
 ### Occupant-Centric Building Control
@@ -30,8 +30,8 @@ author_profile: true
 ### Developement of Slim Dobule-Skin Windows
 ![이미지 alt](/assets/images/SDSW.png)
 {: .align-center}   
-* Purpose: ffff
-* Project: Graduate Research Assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
+* Purpose: Analyzing the heat transfer of SDSW using CFD simulation and demonstrating the energy saving performance of SDSW through experiments   
+* Project: __Graduate research assistant__. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
 ### 미세먼지 저감 기술 연구
