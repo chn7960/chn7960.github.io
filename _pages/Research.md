@@ -26,9 +26,9 @@ Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132
 * Position: Graduate Research Assistant   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
 
-### Slim Dobule Skin Facade
+### Developement of Slim Dobule-Skin Windows
 Purpose: ffff
-Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
+Project: Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity, _Kolon Global_   
 Period: 2017.12 - 2018.12   
 Role: Graduate Research Assistant   
 Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
