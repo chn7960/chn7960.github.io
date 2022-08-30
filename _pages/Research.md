@@ -28,6 +28,8 @@ author_profile: true
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
 
 ### Developement of Slim Dobule-Skin Windows
+![이미지 alt](/assets/images/SDSW.png)
+{: .align-center}   
 * Purpose: ffff
 * Project: Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity, _Kolon Global_   
 * Period: 2017.12 - 2018.12   
