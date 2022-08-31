@@ -1,11 +1,12 @@
 ---
 permalink: /Research/
-title: "　"
+title: " "
 path: "_pages"
 type: pages
 layout: single
 author_profile: true
 ---
+## RESEARCH EXPERIENCE
 ### Vision-based Occupant Information Estimation 
 ![이미지 alt](/assets/images/Vision.jpg)
 {: .align-center}   
