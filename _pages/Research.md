@@ -43,10 +43,10 @@ Period: 2017.3 - 2022.8
 Role: Graduate Research Assistant   
 Publications: 1, 2, 3   
 
-### 생활밀착형 연구
+### Search for the optimal installation location of the adsorptive material
 ![이미지 alt](/assets/images/IAQ.png)
 {: .align-center}   
 * Keywords: Adsorptive material, VOCs, Indoor air quality, CFD simulation   
-* Purpose: ffff
+* Purpose: Developing algorithms and programs that can quickly find the optimal installation location of adsorptive materials in residential buildings
 * Project: Graduate research assistant. (2017 - 2020). Developement of building technology to improve the living performance closely related with lifestyle to realize the housing welfare. _Korea Agency for Infrastructure Technology Advancement_ 
 * Publications: [__1__](http://www.kieae.kr/_PR/view/?aidx=26336&bidx=2476){:target="_blank"}, [__2__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}, [__3__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
