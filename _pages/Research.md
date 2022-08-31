@@ -20,16 +20,11 @@ author_profile: true
 * Project: __Graduate research assistant__. (2020 - 2022). Developement of building technology to improve the living performance closely related with lifestyle to realize the housing welfare, _Korea Institute of Energy Technology Evaluation and Planning_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
 
-### 쿠웨이트 연구
+### MRT-Based Air Conditioning Control
 ![이미지 alt](/assets/images/Kuwait.png)
 {: .align-center}   
-* Purpose: ffff
-* Purpose: Developing novel technology to estimate occupant information (e.g., metabolic rate, clothing insulation) using computer vision
-* Project: __Graduate research assistant__. (2019 - 2021). Occupants-behavior-learning type smart space for elderlybased on cyber physics system. _Korea Conformity Laboratories_  
-* 
-* Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
-* Period: 2017.3 - 2022.8   
-* Position: Graduate Research Assistant   
+* Purpose: Predicting the mean radiant temperature in Kuwait houses using machine learning techniques and controlling the rooftop package air conditioner based on the prediction
+* Project: Graduate research assistant. (2019 - 2021). MbAC algorithm code programming and reliability evaluation research service. _Korea Conformity Laboratories_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
 
 ### Developement of Slim Dobule-Skin Windows
