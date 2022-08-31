@@ -7,7 +7,7 @@ layout: single
 author_profile: true
 ---
 ## RESEARCH EXPERIENCE
-### Vision-based Occupant Information Estimation 
+### Estimation of vision-based occupant information 
 ![이미지 alt](/assets/images/Vision.jpg)
 {: .align-center}   
 * Keywords: Computer vision; Metabolic rate; Clothing insulation; Thermal comfort; Deep learning
@@ -15,7 +15,7 @@ author_profile: true
 * Project: Graduate research assistant. (2017 - 2020). Occupants-behavior-learning type smart space for elderlybased on cyber physics system. _National Research Foundation of Korea_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132321004388){:target="_blank"}, [__2__](https://www.mdpi.com/2071-1050/11/20/5702){:target="_blank"}, [__3__](https://www.mdpi.com/2073-4433/11/1/106){:target="_blank"}, [__4__](https://link.springer.com/article/10.1007/s12273-020-0707-1){:target="_blank"}   
 
-### Occupant-Centric Building Control
+### Implementation of occupant-centric building control
 ![이미지 alt](/assets/images/OCC.jpg)
 {: .align-center}   
 * Keywords: Occupant-centric control; Occupant information; Building energy performance; Thermal comfort; Deep learning, Field implementation
@@ -23,7 +23,7 @@ author_profile: true
 * Project: Graduate research assistant. (2020 - 2022). Development of smart hybrid envelope systems for zero energy buildings through holistic performance test and evaluation methods and field verifications, _Korea Institute of Energy Technology Evaluation and Planning_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322005789){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
 
-### MRT-Based Air Conditioning Control
+### Implementation of MRT-based air conditioner control
 ![이미지 alt](/assets/images/Kuwait.jpg)
 {: .align-center}   
 * Keywords: Building control; Mean radiant temperature; Building energy performance; Machine learning; Co-simulation (EnergyPlus-MATLAB)
@@ -31,7 +31,7 @@ author_profile: true
 * Project: Graduate research assistant. (2019 - 2021). MbAC algorithm code programming and reliability evaluation research service. _Korea Conformity Laboratories_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
 
-### Developement of Slim Dobule-Skin Windows
+### Developement of slim dobule-skin windows
 ![이미지 alt](/assets/images/SDSW.jpg)
 {: .align-center}   
 * Keywords: Slim double-skin window; Smart window; Building energy performance; CFD simulation    
@@ -39,7 +39,7 @@ author_profile: true
 * Project: Graduate research assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
-### Development of technology to reduce particulate matter
+### Development of ventilation strategies to reduce particulate matter
 ![이미지 alt](/assets/images/PM.jpg)
 {: .align-center}   
 * Keywords: Particulate matter; Pressurized ventilation; Indoor air quality; Measurement; CONTAM   
