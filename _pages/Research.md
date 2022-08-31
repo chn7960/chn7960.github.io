@@ -21,7 +21,7 @@ author_profile: true
 * Keywords: Occupant-centric control; Occupant information; Building energy performance; Thermal comfort; Deep learning, Field implementation
 * Purpose: Developing and validating strategies to control HVAC systems based on occupant information (e.g., number of occupants, metabolic rate, clothing insulation)
 * Project: Graduate research assistant. (2020 - 2022). Development of smart hybrid envelope systems for zero energy buildings through holistic performance test and evaluation methods and field verifications, _Korea Institute of Energy Technology Evaluation and Planning_   
-* Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
+* Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322005789){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
 
 ### MRT-Based Air Conditioning Control
 ![이미지 alt](/assets/images/Kuwait.jpg)
