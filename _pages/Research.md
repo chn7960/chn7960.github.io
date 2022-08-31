@@ -38,7 +38,7 @@ author_profile: true
 * Project: Graduate research assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
-### 미세먼지 저감 기술 연구
+### Development of technology to reduce particulate matter
 ![이미지 alt](/assets/images/PM.jpg)
 {: .align-center}   
 * Keywords: Particulate matter; Pressurized ventilation; Indoor air quality; Measurement; CONTAM   
