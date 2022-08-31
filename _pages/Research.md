@@ -7,7 +7,7 @@ layout: single
 author_profile: true
 ---
 ## RESEARCH EXPERIENCE
-### Estimation of vision-based occupant information 
+### Vision-based estimation of occupant information 
 ![이미지 alt](/assets/images/Vision.jpg)
 {: .align-center}   
 * Keywords: Computer vision; Metabolic rate; Clothing insulation; Thermal comfort; Deep learning
