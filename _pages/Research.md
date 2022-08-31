@@ -25,7 +25,7 @@ author_profile: true
 ### MRT-Based Air Conditioning Control
 ![이미지 alt](/assets/images/Kuwait.jpg)
 {: .align-center}   
-* Keywords: Building control; Mean radiant temperature; Building energy performance; Machine learning; EnergyPlus-MATLAB co-simulation
+* Keywords: Building control; Mean radiant temperature; Building energy performance; Machine learning; Co-simulation (EnergyPlus-MATLAB)
 * Purpose: Predicting the mean radiant temperature in Kuwait houses using machine learning techniques and controlling the rooftop package air conditioner based on the prediction
 * Project: Graduate research assistant. (2019 - 2021). MbAC algorithm code programming and reliability evaluation research service. _Korea Conformity Laboratories_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
