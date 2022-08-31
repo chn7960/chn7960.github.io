@@ -15,7 +15,7 @@ author_profile: true
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132321004388){:target="_blank"}, [__2__](https://www.mdpi.com/2071-1050/11/20/5702){:target="_blank"}, [__3__](https://www.mdpi.com/2073-4433/11/1/106){:target="_blank"}, [__4__](https://link.springer.com/article/10.1007/s12273-020-0707-1){:target="_blank"}   
 
 ### Occupant-Centric Building Control
-![이미지 alt](/assets/images/OCC.png)
+![이미지 alt](/assets/images/OCC.jpg)
 {: .align-center}   
 * Keywords: Occupant-centric control; Occupant information; Building energy performance; Thermal comfort; Deep learning, Field implementation
 * Purpose: Developing and validating strategies to control HVAC systems based on occupant information (e.g., number of occupants, metabolic rate, clothing insulation)
