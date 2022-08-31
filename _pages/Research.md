@@ -10,14 +10,14 @@ author_profile: true
 ![이미지 alt](/assets/images/Vision.png)
 {: .align-center}   
 * Purpose: Developing novel technology to estimate occupant information (e.g., metabolic rate, clothing insulation) using computer vision
-* Project: __Graduate research assistant__. (2017 - 2020). Occupants-behavior-learning type smart space for elderlybased on cyber physics system. _National Research Foundation of Korea_  
+* Project: Graduate research assistant. (2017 - 2020). Occupants-behavior-learning type smart space for elderlybased on cyber physics system. _National Research Foundation of Korea_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132321004388){:target="_blank"}, [__2__](https://www.mdpi.com/2071-1050/11/20/5702){:target="_blank"}, [__3__](https://www.mdpi.com/2073-4433/11/1/106){:target="_blank"}, [__4__](https://link.springer.com/article/10.1007/s12273-020-0707-1){:target="_blank"}   
 
 ### Occupant-Centric Building Control
 ![이미지 alt](/assets/images/OCC.png)
 {: .align-center}   
 * Purpose: Developing and validating strategies to control HVAC systems based on occupant information (e.g., number of occupants, metabolic rate, clothing insulation)
-* Project: __Graduate research assistant__. (2020 - 2022). Developement of building technology to improve the living performance closely related with lifestyle to realize the housing welfare, _Korea Institute of Energy Technology Evaluation and Planning_   
+* Project: Graduate research assistant. (2020 - 2022). Development of smart hybrid envelope systems for zero energy buildings through holistic performance test and evaluation methods and field verifications, _Korea Institute of Energy Technology Evaluation and Planning_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
 
 ### MRT-Based Air Conditioning Control
@@ -31,7 +31,7 @@ author_profile: true
 ![이미지 alt](/assets/images/SDSW.png)
 {: .align-center}   
 * Purpose: Analyzing the heat transfer of SDSW using CFD simulation and demonstrating the energy saving performance of SDSW through experiments   
-* Project: __Graduate research assistant__. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
+* Project: Graduate research assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
 ### 미세먼지 저감 기술 연구
@@ -42,8 +42,9 @@ Role: Graduate Research Assistant
 Publications: 1, 2, 3   
 
 ### 생활밀착형 연구
+![이미지 alt](/assets/images/IAQ.png)
+{: .align-center}   
+Keywords: Indoor air quality, adsorptive material, CFD simulation, VOCs
 Purpose: ffff
-Project: Development of Smart Hybrid Envelope Systems for Zero Energy Buildings through Holistic Performance Test and Evaluation Methods and Field Verifications   
-Period: 2017.3 - 2022.8   
-Role: Graduate Research Assistant   
-Publications: 1, 2, 3   
+* Project: Graduate research assistant. (2017 - 2020). Developement of building technology to improve the living performance closely related with lifestyle to realize the housing welfare. _Korea Agency for Infrastructure Technology Advancement_ 
+Publications: [__1__](http://www.kieae.kr/_PR/view/?aidx=26336&bidx=2476){:target="_blank"}, [__2__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}, [__3__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
