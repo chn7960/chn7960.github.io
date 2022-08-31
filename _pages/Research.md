@@ -23,6 +23,7 @@ author_profile: true
 ### MRT-Based Air Conditioning Control
 ![이미지 alt](/assets/images/Kuwait.png)
 {: .align-center}   
+* Keywords: Building control, Mean radiant temperature, Building energy performance, Machine learning, Co-simulation
 * Purpose: Predicting the mean radiant temperature in Kuwait houses using machine learning techniques and controlling the rooftop package air conditioner based on the prediction
 * Project: Graduate research assistant. (2019 - 2021). MbAC algorithm code programming and reliability evaluation research service. _Korea Conformity Laboratories_  
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
@@ -30,6 +31,7 @@ author_profile: true
 ### Developement of Slim Dobule-Skin Windows
 ![이미지 alt](/assets/images/SDSW.png)
 {: .align-center}   
+* Keywords: Slim double-skin window, Smart window, Building energy performance, CFD simulation    
 * Purpose: Analyzing the heat transfer of SDSW using CFD simulation and demonstrating the energy saving performance of SDSW through experiments   
 * Project: Graduate research assistant. (2017 - 2018). Airflow analysis and energy performance evaluation of non-shading windows capable of natural ventilation through a cavity. _Kolon Global_   
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
@@ -44,7 +46,7 @@ Publications: 1, 2, 3
 ### 생활밀착형 연구
 ![이미지 alt](/assets/images/IAQ.png)
 {: .align-center}   
-Keywords: Indoor air quality, adsorptive material, CFD simulation, VOCs
-Purpose: ffff
+* Keywords: Adsorptive material, VOCs, Indoor air quality, CFD simulation   
+* Purpose: ffff
 * Project: Graduate research assistant. (2017 - 2020). Developement of building technology to improve the living performance closely related with lifestyle to realize the housing welfare. _Korea Agency for Infrastructure Technology Advancement_ 
-Publications: [__1__](http://www.kieae.kr/_PR/view/?aidx=26336&bidx=2476){:target="_blank"}, [__2__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}, [__3__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
+* Publications: [__1__](http://www.kieae.kr/_PR/view/?aidx=26336&bidx=2476){:target="_blank"}, [__2__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}, [__3__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
