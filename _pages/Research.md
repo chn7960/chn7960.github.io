@@ -7,7 +7,7 @@ layout: single
 author_profile: true
 ---
 ### Vision-based Occupant Information Estimation 
-![이미지 alt](/assets/images/Vision.png)
+![이미지 alt](/assets/images/Vision.jpg)
 {: .align-center}   
 * Keywords: Computer vision; Metabolic rate; Clothing insulation; Thermal comfort; Deep learning
 * Purpose: Developing novel technology to estimate occupant information (e.g., metabolic rate, clothing insulation) using computer vision
@@ -23,7 +23,7 @@ author_profile: true
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0360132322007272){:target="_blank"}, [__3__](https://www.sciencedirect.com/science/article/pii/S0378778821006733){:target="_blank"}, [__4__](https://www.sciencedirect.com/science/article/pii/S0360132321004662){:target="_blank"}   
 
 ### MRT-Based Air Conditioning Control
-![이미지 alt](/assets/images/Kuwait.png)
+![이미지 alt](/assets/images/Kuwait.jpg)
 {: .align-center}   
 * Keywords: Building control; Mean radiant temperature; Building energy performance; Machine learning; EnergyPlus-MATLAB co-simulation
 * Purpose: Predicting the mean radiant temperature in Kuwait houses using machine learning techniques and controlling the rooftop package air conditioner based on the prediction
@@ -31,7 +31,7 @@ author_profile: true
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S036013232100754X){:target="_blank"}
 
 ### Developement of Slim Dobule-Skin Windows
-![이미지 alt](/assets/images/SDSW.png)
+![이미지 alt](/assets/images/SDSW.jpg)
 {: .align-center}   
 * Keywords: Slim double-skin window; Smart window; Building energy performance; CFD simulation    
 * Purpose: Analyzing the heat transfer of SDSW using CFD simulation and demonstrating the energy saving performance of SDSW through experiments   
@@ -39,7 +39,7 @@ author_profile: true
 * Publications: [__1__](https://www.sciencedirect.com/science/article/pii/S1359431119311081){:target="_blank"}, [__2__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}   
 
 ### 미세먼지 저감 기술 연구
-![이미지 alt](/assets/images/PM.png)
+![이미지 alt](/assets/images/PM.jpg)
 {: .align-center}   
 * Keywords: Particulate matter; Pressurized ventilation; Indoor air quality; Measurement; CONTAM   
 * Purpose: Developing and validating control strategies (e.g., pressurized ventilation) to reduce particulate matter concentrations in classrooms
@@ -47,7 +47,7 @@ author_profile: true
 * Publications: [__1__](http://koreascience.or.kr/article/JAKO202029462558662.page){:target="_blank"}
 
 ### Search for the optimal installation location of the adsorptive material
-![이미지 alt](/assets/images/IAQ.png)
+![이미지 alt](/assets/images/IAQ.jpg)
 {: .align-center}   
 * Keywords: Adsorptive material; VOCs; Indoor air quality; CFD simulation   
 * Purpose: Developing algorithms and programs that can quickly find the optimal installation location of adsorptive materials in residential buildings
