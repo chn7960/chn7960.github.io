@@ -1,5 +1,6 @@
 ---
 permalink: /Achievements/
+title: "Achivements"
 path: "_pages"
 type: pages
 layout: single
