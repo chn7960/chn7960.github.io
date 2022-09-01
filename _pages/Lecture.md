@@ -1,6 +1,6 @@
 ---
 permalink: /Lecture/
-title: " "
+title: "Lecture"
 path: "_pages"
 type: pages
 layout: single
