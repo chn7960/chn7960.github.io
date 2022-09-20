@@ -29,4 +29,4 @@ _Bachelor of Science_
 * Computer Vision; Artificial Intelligence; Deep Learning; Internet of Things
 
 ## CONTACT INFORMATION
-chn7960@yonsei.ac.kr
+chn7960@kier.re.kr
