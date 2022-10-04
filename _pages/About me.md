@@ -24,7 +24,7 @@ Department of Architecutre & Architecutral Engineering
 _Bachelor of Science_
 
 ## RESEARCH INTERESTS
-* Zero Energy Building; Enegy Efficient in Building
+* Zero Energy Building; Enegy Efficiency in Building
 * Occupant-Centric Control; Human-Building Interaction; Occupant Information
 * Computer Vision; Artificial Intelligence; Deep Learning; Internet of Things
 
