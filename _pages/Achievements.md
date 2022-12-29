@@ -22,6 +22,7 @@ author_profile: true
 1. __Choi, H.__, Kim, H., & Kim, T. (2017). Health risk assessment by CRPS and the numerical model for toluene in residential buildings. _KIEAE Journal_, 17(5), 33-41., [__link__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
 
 ### Co-Author
+1. Ahn, Y., __Choi, H.__, & Kim, B. S. (2023). Development of early fire detection model for buildings using computer vision-based CCTV. Journal of Building Engineering, 65, 105647., [__link__](https://www.sciencedirect.com/science/article/pii/S2352710222016539){:target="_blank"}
 1. An, Y., __Choi, H.__, Kim, E., Kang, K., Kim, S., & Kim, T. (2022). Empirical analysis of the effects of window remodeling using the slim double-skin window on the thermal properties of old buildings. _Energy and Buildings_, 277, 112581., [__link__](https://www.sciencedirect.com/science/article/pii/S0378778822007526){:target="_blank"}
 1. Um, C. Y., Zhang, N., Kang, K., Na, H., __Choi, H.__, & Kim, T. (2022). Occupant behavior and indoor particulate concentrations in daycare centers. _Science of The Total Environment_, 824, 153206., [__link__](https://www.sciencedirect.com/science/article/pii/S0048969722002960){:target="_blank"}
 1. An, Y., __Choi, H.__, Kim, E., & Kim, T. (2022). Experimental analysis of seasonal temperature characteristics and cooling and heating energy consumption of a slim double-skin window. _Energy and Buildings_, 256, 111681., [__link__](https://www.sciencedirect.com/science/article/pii/S0378778821009658){:target="_blank"}
