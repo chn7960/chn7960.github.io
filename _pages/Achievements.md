@@ -22,6 +22,7 @@ author_profile: true
 1. __Choi, H.__, Kim, H., & Kim, T. (2017). Health risk assessment by CRPS and the numerical model for toluene in residential buildings. _KIEAE Journal_, 17(5), 33-41., [__link__](https://koreascience.kr/article/JAKO201732663239337.page){:target="_blank"}
 
 ### Co-Author
+1. Na, H., __Choi, H.__, Kim, H., & Kim, T. (2023). Optimizing indoor air quality and noise levels in old school classrooms with air purifiers and HRV: A CONTAM simulation study. _Journal of Building Engineering_, 106645., [__link__](https://www.sciencedirect.com/science/article/pii/S2352710223008240){:target="_blank"}
 1. Ahn, Y., __Choi, H.__, & Kim, B. S. (2023). Development of early fire detection model for buildings using computer vision-based CCTV. _Journal of Building Engineering_, 65, 105647., [__link__](https://www.sciencedirect.com/science/article/pii/S2352710222016539){:target="_blank"}
 1. An, Y., __Choi, H.__, Kim, E., Kang, K., Kim, S., & Kim, T. (2022). Empirical analysis of the effects of window remodeling using the slim double-skin window on the thermal properties of old buildings. _Energy and Buildings_, 277, 112581., [__link__](https://www.sciencedirect.com/science/article/pii/S0378778822007526){:target="_blank"}
 1. Um, C. Y., Zhang, N., Kang, K., Na, H., __Choi, H.__, & Kim, T. (2022). Occupant behavior and indoor particulate concentrations in daycare centers. _Science of The Total Environment_, 824, 153206., [__link__](https://www.sciencedirect.com/science/article/pii/S0048969722002960){:target="_blank"}
@@ -30,7 +31,6 @@ author_profile: true
 1. Na, H., __Choi, H.__, & Kim, T. (2020). Metabolic rate estimation method using image deep learning. _Building Simulation_, Vol. 13, No. 5, pp. 1077-1093., [__link__](https://link.springer.com/article/10.1007/s12273-020-0707-1){:target="_blank"}
 1. Lee, K., __Choi, H.__, Kim, H., Kim, D. D., & Kim, T. (2020). Assessment of a real-time prediction method for high clothing thermal insulation using a thermoregulation model and an infrared camera. _Atmosphere_, 11(1), 106., [__link__](https://www.mdpi.com/2073-4433/11/1/106){:target="_blank"}
 1. Lee, K., __Choi, H.__, Choi, J. H., & Kim, T. (2019). Development of a data-driven predictive model of clothing thermal insulation estimation by using advanced computational approaches. _Sustainability_, 11(20), 5702., [__link__](https://www.mdpi.com/2071-1050/11/20/5702){:target="_blank"}
-
 
 ## INTERNATIONAL CONFERENCE PAPERS
 1. Na, H., __Choi, H.__, Lee, Y., Kim, T. (2022). Analysis of the Effect of Droplet Diffusion (COVID-19 Surrogate) According to the Use of Portable Air Purifier Under Cooling Conditions in Summer., _PLEA 2022_, Santiago, Chile
