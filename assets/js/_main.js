@@ -1,136 +1,143 @@
 /* ==========================================================================
-   jQuery plugin settings and other scripts
+   Various functions that we want to use within the template
    ========================================================================== */
 
-$(document).ready(function() {
-  // FitVids init
-  $("#main").fitVids();
+// Determine the expected state of the theme toggle, which can be "dark", "light", or
+// "system". Default is "system".
+let determineThemeSetting = () => {
+  let themeSetting = localStorage.getItem("theme");
+  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+};
 
-  // Sticky sidebar
-  var stickySideBar = function() {
-    var show =
-      $(".author__urls-wrapper button").length === 0
-        ? $(window).width() > 1024 // width should match $large Sass variable
-        : !$(".author__urls-wrapper button").is(":visible");
-    if (show) {
-      // fix
-      $(".sidebar").addClass("sticky");
-    } else {
-      // unfix
-      $(".sidebar").removeClass("sticky");
+// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// "system", the computed theme is determined based on the user's system preference.
+let determineComputedTheme = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting != "system") {
+    return themeSetting;
+  }
+  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+};
+
+// detect OS/browser preference
+const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+// Set the theme on page load or when explicitly called
+let setTheme = (theme) => {
+  const use_theme =
+    theme ||
+    localStorage.getItem("theme") ||
+    $("html").attr("data-theme") ||
+    browserPref;
+
+  if (use_theme === "dark") {
+    $("html").attr("data-theme", "dark");
+    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+  } else if (use_theme === "light") {
+    $("html").removeAttr("data-theme");
+    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+  }
+};
+
+// Toggle the theme manually
+var toggleTheme = () => {
+  const current_theme = $("html").attr("data-theme");
+  const new_theme = current_theme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", new_theme);
+  setTheme(new_theme);
+};
+
+/* ==========================================================================
+   Plotly integration script so that Markdown codeblocks will be rendered
+   ========================================================================== */
+
+// Read the Plotly data from the code block, hide it, and render the chart as new node. This allows for the 
+// JSON data to be retrieve when the theme is switched. The listener should only be added if the data is 
+// actually present on the page.
+import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
+let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
+if (plotlyElements.length > 0) {
+  document.addEventListener("readystatechange", () => {
+    if (document.readyState === "complete") {
+      plotlyElements.forEach((elem) => {
+        // Parse the Plotly JSON data and hide it
+        var jsonData = JSON.parse(elem.textContent);
+        elem.parentElement.classList.add("hidden");
+
+        // Add the Plotly node
+        let chartElement = document.createElement("div");
+        elem.parentElement.after(chartElement);
+
+        // Set the theme for the plot and render it
+        const theme = (determineComputedTheme() === "dark") ? plotlyDarkLayout : plotlyLightLayout;
+        if (jsonData.layout) {
+          jsonData.layout.template = (jsonData.layout.template) ? { ...theme, ...jsonData.layout.template } : theme;
+        } else {
+          jsonData.layout = { template: theme };
+        }
+        Plotly.react(chartElement, jsonData.data, jsonData.layout);
+      });
     }
-  };
-
-  stickySideBar();
-
-  $(window).resize(function() {
-    stickySideBar();
   });
+}
+
+/* ==========================================================================
+   Actions that should occur when the page has been fully loaded
+   ========================================================================== */
+
+$(document).ready(function () {
+  // SCSS SETTINGS - These should be the same as the settings in the relevant files 
+  const scssLarge = 925;          // pixels, from /_sass/_themes.scss
+  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
+
+  // If the user hasn't chosen a theme, follow the OS preference
+  setTheme();
+  window.matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener("change", (e) => {
+          if (!localStorage.getItem("theme")) {
+            setTheme(e.matches ? "dark" : "light");
+          }
+        });
+
+  // Enable the theme toggle
+  $('#theme-toggle').on('click', toggleTheme);
+
+  // Enable the sticky footer
+  var bumpIt = function () {
+    $("body").css("padding-bottom", "0");
+    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+  }
+  $(window).resize(function () {
+    didResize = true;
+  });
+  setInterval(function () {
+    if (didResize) {
+      didResize = false;
+      bumpIt();
+    }}, 250);
+  var didResize = false;
+  bumpIt();
+
+  // FitVids init
+  fitvids();
 
   // Follow menu drop down
-  $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").toggleClass("is--visible");
+  $(".author__urls-wrapper button").on("click", function () {
+    $(".author__urls").fadeToggle("fast", function () { });
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // Close search screen with Esc key
-  $(document).keyup(function(e) {
-    if (e.keyCode === 27) {
-      if ($(".initial-content").hasClass("is--hidden")) {
-        $(".search-content").toggleClass("is--visible");
-        $(".initial-content").toggleClass("is--hidden");
-      }
+  // Restore the follow menu if toggled on a window resize
+  jQuery(window).on('resize', function () {
+    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
+      $(".author__urls").css('display', 'block')
     }
   });
 
-  // Search toggle
-  $(".search__toggle").on("click", function() {
-    $(".search-content").toggleClass("is--visible");
-    $(".initial-content").toggleClass("is--hidden");
-    // set focus on input
-    setTimeout(function() {
-      $(".search-content input").focus();
-    }, 400);
+  // Init smooth scroll, this needs to be slightly more than then fixed masthead height
+  $("a").smoothScroll({
+    offset: -scssMastheadHeight,
+    preventDefault: false,
   });
 
-  // Smooth scrolling
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 20,
-    speed: 400,
-    speedAsDuration: true,
-    durationMax: 500
-  });
-
-  // Gumshoe scroll spy init
-  if($("nav.toc").length > 0) {
-    var spy = new Gumshoe("nav.toc a", {
-      // Active classes
-      navClass: "active", // applied to the nav list item
-      contentClass: "active", // applied to the content
-
-      // Nested navigation
-      nested: false, // if true, add classes to parents of active link
-      nestedClass: "active", // applied to the parent items
-
-      // Offset & reflow
-      offset: 20, // how far from the top of the page to activate a content area
-      reflow: true, // if true, listen for reflows
-
-      // Event support
-      events: true // if true, emit custom events
-    });
-  }
-
-  // add lightbox class to all image links
-  $(
-    "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']"
-  ).has("> img").addClass("image-popup");
-
-  // Magnific-Popup options
-  $(".image-popup").magnificPopup({
-    // disableOn: function() {
-    //   if( $(window).width() < 500 ) {
-    //     return false;
-    //   }
-    //   return true;
-    // },
-    type: "image",
-    tLoading: "Loading image #%curr%...",
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
-    },
-    removalDelay: 500, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open.
-    // make it unique to apply your CSS animations just to this exact popup
-    mainClass: "mfp-zoom-in",
-    callbacks: {
-      beforeOpen: function() {
-        // just a hack that adds mfp-anim class to markup
-        this.st.image.markup = this.st.image.markup.replace(
-          "mfp-figure",
-          "mfp-figure mfp-with-anim"
-        );
-      }
-    },
-    closeOnContentClick: true,
-    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-  });
-
-  // Add anchors for headings
-  $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
-    var id = $(this).attr('id');
-    if (id) {
-      var anchor = document.createElement("a");
-      anchor.className = 'header-link';
-      anchor.href = '#' + id;
-      anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>';
-      anchor.title = "Permalink";
-      $(this).append(anchor);
-    }
-  });
 });

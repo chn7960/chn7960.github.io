@@ -1,12 +1,18 @@
-# main links
 main:
-  - title: "Home"
+  - title: "About"
     url: /
-  - title: "About me"
-    url: /About me/
-  - title: "Research"
-    url: /Research/
-  - title: "Achievements"
-    url: /Achievements/
-  - title: "Lecture"
-    url: /Lecture/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Projects"
+    url: /portfolio/
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/

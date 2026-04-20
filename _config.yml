@@ -1,146 +1,123 @@
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
+# Basic Site Settings
 locale                   : "en-US"
-title                    : "SKYLOG"
-title_separator          : "-"
-name                     : "Haneul Choi"
-description              : "An amazing website."
-url                      : "https://chn7960.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
-
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+site_theme               : "default"
+title                    : "Haneul Choi"
+title_separator          : "|"
+name                     : &name "Haneul Choi"
+description              : &description "Personal academic website of Haneul Choi, Ph.D. — Senior Researcher at Korea Institute of Energy Research (KIER)."
+url                      : https://chn7960.github.io
+baseurl                  : ""
+repository               : "chn7960/chn7960.github.io"
 
 # Site Author
 author:
+  avatar           : "bio-photo.jpg"
   name             : "Haneul Choi"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Senior researcher at KIER"
-  location         : "Republic of Korea"
+  pronouns         :
+  bio              : "Senior Researcher, KIER"
+  location         : "Daejeon, Republic of Korea"
+  employer         : "Korea Institute of Energy Research"
+  uri              :
+  email            : "chn7960@kier.re.kr"
+
+  # Academic websites
+  academia         :
+  arxiv            :
+  googlescholar    : "https://scholar.google.com/citations?user=8Kh7PeIAAAAJ&hl=en"
+  inspire-hep      :
+  impactstory      :
+  orcid            : "https://orcid.org/0000-0003-2519-6348"
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     : "https://www.researchgate.net/profile/Haneul-Choi-2"
+  scopus           :
+  zotero           :
+
+  # Repositories
+  github           : "chn7960"
+
+# Publication Categories
+publication_category:
+  manuscripts:
+    title: 'Journal Articles (Selected)'
+  conferences:
+    title: 'Conference Papers'
+  domestic:
+    title: 'Domestic Journals & Conferences'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               :
+atom_feed:
+  hide                   : false
+  path                   :
+
+# SEO Related
+google_site_verification :
+
+# Social Sharing
+og_image                 :
+og_description           :
+social:
+  type                   : Person
+  name                   : "Haneul Choi"
   links:
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0003-2519-6348"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.com/citations?user=8Kh7PeIAAAAJ&hl=en"
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://www.researchgate.net/profile/Haneul-Choi-2"
+    - "https://orcid.org/0000-0003-2519-6348"
+    - "https://scholar.google.com/citations?user=8Kh7PeIAAAAJ&hl=en"
+    - "https://www.researchgate.net/profile/Haneul-Choi-2"
+    - "https://github.com/chn7960"
+
+# Analytics
+analytics:
+  provider               : "false"
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - vendor
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
   - assets/js/_main.js
+  - assets/js/plugins
   - assets/js/vendor
-  - Capfile
   - CHANGELOG
+  - Capfile
   - config
+  - Dockerfile
+  - docker-compose.yaml
+  - _config_docker.yml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
+  - local
   - log
+  - markdown_generator
   - node_modules
-  - package.json
-  - package-lock.json
+  - package.json*
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - vendor
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -148,7 +125,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -161,77 +137,23 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -239,6 +161,91 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Seoul
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-polyglot
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-polyglot
+
+# Polyglot (multilingual)
+languages: ["en", "ko"]
+default_lang: "en"
+exclude_from_localization: ["images", "files", "assets", "markdown_generator", "scripts"]
+parallel_localization: true
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
