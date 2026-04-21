@@ -10,3 +10,5 @@ main:
     url: /Achievements/
   - title: "Lecture"
     url: /Lecture/
+  - title: "Blog"
+    url: /Blog/
