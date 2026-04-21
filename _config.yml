@@ -229,6 +229,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -242,3 +248,12 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
