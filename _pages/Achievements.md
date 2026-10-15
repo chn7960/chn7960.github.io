@@ -1,6 +1,6 @@
 ---
 permalink: /Achievements/
-title: "Achivements"
+title: "Achievements"
 path: "_pages"
 type: pages
 layout: single
@@ -35,10 +35,10 @@ author_profile: true
 ## INTERNATIONAL CONFERENCE PAPERS
 1. Na, H., __Choi, H.__, Lee, Y., Kim, T. (2022). Analysis of the Effect of Droplet Diffusion (COVID-19 Surrogate) According to the Use of Portable Air Purifier Under Cooling Conditions in Summer., _PLEA 2022_, Santiago, Chile
 1. Kim, J. J., __Choi, H.__, Jeong, B., & Kim, T. (2021). Comparison of the performance of several data-driven prediction models using small-sized thermal comfort datasets. _International Conference on Korea Institute of Ecological Architecture and Environment (KIEAE)_, Seoul, Republic of Korea
-1. Um, C. Y., __Choi, H.__, & Kim, T. (2020). A Reveiw of Integrated Automatic Shading and Lighting Control Strategies. _International Conference on Korea Institute of Ecological Architecture and Environment (KIEAE)_, Seoul, Republic of Korea
+1. Um, C. Y., __Choi, H.__, & Kim, T. (2020). A Review of Integrated Automatic Shading and Lighting Control Strategies. _International Conference on Korea Institute of Ecological Architecture and Environment (KIEAE)_, Seoul, Republic of Korea
 1. __Choi, H.__, Kang, K., An, Y., Kim, E., Lee, Y., & Kim, T. (2019). Analysis of Heat Transfer in a Slim Double Skin Façade using CFD Simulation. _16th International IBPSA Conference (Building Simulation 2019)_, Rome, Italy
 1. Park, H., __Choi, H.__, Kang, K. M., Kim, H. K., & Kim, T. (2019). An effective ventilation system for preventing indoor PM2.5 dispersion. _10th International Conference on IAQVEC_, Bari, Italy
-1. Kang, K., Kim, T., __Chol, H.__, An, Y., & Kim, E. (2019). Cooling load reduction effect in slim double skin facade (SDSF). _Sustainable Built Environment Conference 2019_, Tokyo, Japan
+1. Kang, K., Kim, T., __Choi, H.__, An, Y., & Kim, E. (2019). Cooling load reduction effect in slim double skin facade (SDSF). _Sustainable Built Environment Conference 2019_, Tokyo, Japan
 1. __Choi, H.__, Kim, D., & Kim, T. (2018). CFD analysis of the optimal installation location of adsorption material in two ventilation conditions in residential buildings: natural convection and mechanical ventilation. _39th AIVC Conference_, Antibes Juan-Les-Pins, France
 
 ## PATENTS AND SOFTWARES
