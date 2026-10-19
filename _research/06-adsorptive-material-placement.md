@@ -3,9 +3,21 @@ title: "Optimal placement of adsorptive material for IAQ"
 excerpt: "CFD-driven algorithm that finds the best installation location of adsorptive material in residential buildings."
 header:
   teaser: /assets/images/IAQ.jpg
+  teaser_webp: /assets/images/optimized/IAQ-640.webp
+  teaser_srcset:
+    - path: /assets/images/optimized/IAQ-320.webp
+      width: 320
+    - path: /assets/images/optimized/IAQ-640.webp
+      width: 640
+  teaser_width: 3915
+  teaser_height: 2272
 ---
 
-![](/assets/images/IAQ.jpg){: .align-center}
+<p>
+  <a href="{{ '/assets/images/IAQ.jpg' | relative_url }}" class="image-popup">
+    <img src="{{ '/assets/images/optimized/IAQ-1920.webp' | relative_url }}" alt="Adsorptive-material experiments and CFD room models, with AdSim software, pollutant concentration contours, and reduction rates for different material placements." class="align-center" width="1920" height="1114" loading="eager" decoding="async">
+  </a>
+</p>
 
 **Keywords**: Adsorptive material · VOCs · Indoor air quality · CFD simulation
 

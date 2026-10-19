@@ -3,9 +3,21 @@ title: "Slim double-skin window (SDSW)"
 excerpt: "CFD and experimental analysis of a naturally-ventilated slim double-skin window for energy savings."
 header:
   teaser: /assets/images/SDSW.jpg
+  teaser_webp: /assets/images/optimized/SDSW-640.webp
+  teaser_srcset:
+    - path: /assets/images/optimized/SDSW-320.webp
+      width: 320
+    - path: /assets/images/optimized/SDSW-640.webp
+      width: 640
+  teaser_width: 4113
+  teaser_height: 2343
 ---
 
-![](/assets/images/SDSW.jpg){: .align-center}
+<p>
+  <a href="{{ '/assets/images/SDSW.jpg' | relative_url }}" class="image-popup">
+    <img src="{{ '/assets/images/optimized/SDSW-1920.webp' | relative_url }}" alt="Slim double-skin window sections in summer and winter modes, prototype photographs, solar heat-gain comparisons, and simulated cavity airflow." class="align-center" width="1920" height="1094" loading="eager" decoding="async">
+  </a>
+</p>
 
 **Keywords**: Slim double-skin window · Smart window · Building energy performance · CFD simulation
 

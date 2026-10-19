@@ -90,7 +90,14 @@ analytics:
 # Site Author
 author:
   name             : "Haneul Choi"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/optimized/bio-photo-220.webp"
+  avatar_srcset:
+    - path: "/assets/images/optimized/bio-photo-110.webp"
+      width: 110
+    - path: "/assets/images/optimized/bio-photo-220.webp"
+      width: 220
+  avatar_width     : 220
+  avatar_height    : 262
   bio              : "Senior researcher at KIER"
   location         : "Republic of Korea"
   links:
@@ -130,6 +137,7 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - scripts
   - Rakefile
   - README
   - tmp

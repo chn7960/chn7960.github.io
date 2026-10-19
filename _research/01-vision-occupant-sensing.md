@@ -3,9 +3,21 @@ title: "Vision-based estimation of occupant information"
 excerpt: "Estimating metabolic rate and clothing insulation from computer vision — for thermal-comfort-aware HVAC control."
 header:
   teaser: /assets/images/Vision.jpg
+  teaser_webp: /assets/images/optimized/Vision-640.webp
+  teaser_srcset:
+    - path: /assets/images/optimized/Vision-320.webp
+      width: 320
+    - path: /assets/images/optimized/Vision-640.webp
+      width: 640
+  teaser_width: 3484
+  teaser_height: 2390
 ---
 
-![](/assets/images/Vision.jpg){: .align-center}
+<p>
+  <a href="{{ '/assets/images/Vision.jpg' | relative_url }}" class="image-popup">
+    <img src="{{ '/assets/images/optimized/Vision-1920.webp' | relative_url }}" alt="Computer-vision workflow for estimating clothing insulation, from training images and a neural network to webcam-based building control, with validation results." class="align-center" width="1920" height="1317" loading="eager" decoding="async">
+  </a>
+</p>
 
 **Keywords**: Computer vision · Metabolic rate · Clothing insulation · Thermal comfort · Deep learning
 

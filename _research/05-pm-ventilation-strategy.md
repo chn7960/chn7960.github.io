@@ -3,9 +3,21 @@ title: "Ventilation strategies to reduce particulate matter"
 excerpt: "Pressurized-ventilation control strategies validated in classrooms to lower PM concentrations."
 header:
   teaser: /assets/images/PM.jpg
+  teaser_webp: /assets/images/optimized/PM-640.webp
+  teaser_srcset:
+    - path: /assets/images/optimized/PM-320.webp
+      width: 320
+    - path: /assets/images/optimized/PM-640.webp
+      width: 640
+  teaser_width: 4293
+  teaser_height: 2294
 ---
 
-![](/assets/images/PM.jpg){: .align-center}
+<p>
+  <a href="{{ '/assets/images/PM.jpg' | relative_url }}" class="image-popup">
+    <img src="{{ '/assets/images/optimized/PM-1920.webp' | relative_url }}" alt="Positive-pressure ventilation limiting outdoor particulate infiltration, with classroom measurement locations and daily PM2.5 concentration comparisons." class="align-center" width="1920" height="1026" loading="eager" decoding="async">
+  </a>
+</p>
 
 **Keywords**: Particulate matter · Pressurized ventilation · Indoor air quality · Measurement · CONTAM
 
