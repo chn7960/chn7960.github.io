@@ -1,13 +1,12 @@
 ---
 permalink: /About me/
-title: " "
+title: "Haneul Choi, Ph.D."
+description: "Research background, education, and interests of Haneul Choi, Senior Researcher at the Korea Institute of Energy Research."
 path: "_pages"
 type: pages
 layout: single
 author_profile: true
 ---
-# Haneul Choi, Ph.D.
-
 ## PROFESSIONAL EMPLOYMENT
 __Korea Institute of Energy Research__, Daejeon, Republic of Korea　　　　2022.9 - Present   
 Energy ICT Convergence Research Department   
